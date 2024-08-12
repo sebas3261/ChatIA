@@ -51,12 +51,15 @@ fun MainScreen(navController: NavController){
             modifier = Modifier
                 .fillMaxWidth()
                 .height(300.dp)
-                .background(color = Color(0xFF2C2C2C), shape = RoundedCornerShape(topStart = 30.dp, topEnd = 30.dp))
+                .background(
+                    color = Color(0xFF2C2C2C),
+                    shape = RoundedCornerShape(topStart = 30.dp, topEnd = 30.dp)
+                )
                 .align(Alignment.BottomEnd)
                 .padding(30.dp)
         ){
             Button(
-                onClick = { println("pos si") },
+                onClick = { navController.navigate("chat") },
                 modifier = Modifier
                     .width(500.dp)
                     .height(50.dp)
