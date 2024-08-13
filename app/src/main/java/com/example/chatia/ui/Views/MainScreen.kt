@@ -40,7 +40,7 @@ import androidx.compose.ui.unit.sp
 fun MainScreen(navController: NavController){
     Box(
         modifier = Modifier
-            .offset(y = 100.dp)
+            .offset(y = 30.dp)
     ){
         val composition by rememberLottieComposition(spec = LottieCompositionSpec.RawRes(R.raw.imagen))
         LottieAnimation(
@@ -50,7 +50,7 @@ fun MainScreen(navController: NavController){
         Column(
             modifier = Modifier
                 .fillMaxWidth()
-                .height(300.dp)
+                .height(250.dp)
                 .background(
                     color = Color(0xFF2C2C2C),
                     shape = RoundedCornerShape(topStart = 30.dp, topEnd = 30.dp)

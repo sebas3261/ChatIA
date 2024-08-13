@@ -8,7 +8,7 @@ import androidx.compose.material3.TextField
 import androidx.compose.material3.Text
 import androidx.compose.runtime.*
 
-class ViewModel : ViewModel() {
+open class ViewModel : ViewModel() {
     @Composable
     fun ATextField(){
         var text by remember { mutableStateOf("") }
