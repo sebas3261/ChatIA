@@ -70,4 +70,9 @@ dependencies {
     implementation ("com.airbnb.android:lottie-compose:6.5.0")
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1")
     implementation("androidx.compose.material:material-icons-extended:$1.5.4")
+    implementation ("androidx.compose.ui:ui:<version>")
+    implementation ("androidx.compose.material:material:<version>")
+    implementation ("androidx.compose.ui:ui-tooling:<version>")
+    implementation ("androidx.lifecycle:lifecycle-runtime-ktx:<version>")
+    implementation ("androidx.activity:activity-compose:<version>")
 }
